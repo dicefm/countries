@@ -5,7 +5,7 @@ defmodule CountriesTest do
   describe "all/0" do
     test "get all countries" do
       countries = Countries.all()
-      assert Enum.count(countries) == 250
+      assert Enum.count(countries) == 251
     end
   end
 
@@ -61,7 +61,7 @@ defmodule CountriesTest do
 
     test "filters many countries by region" do
       countries = Countries.filter_by(:region, "Europe")
-      assert Enum.count(countries) == 51
+      assert Enum.count(countries) == 52
     end
 
     test "filters by official language" do

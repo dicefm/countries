@@ -1,0 +1,51 @@
+---
+XK:
+  continent: Europe
+  alpha2: XK
+  alpha3: XKX
+  country_code: '383'
+  international_prefix: '00'
+  ioc: KOS
+  gec: KV
+  name: Kosovo
+  national_destination_code_lengths:
+  - 3
+  national_number_lengths:
+  - 8
+  national_prefix: '0'
+  number: '926'
+  region: Europe
+  subregion: Southern Europe
+  world_region: EMEA
+  un_locode: XK
+  nationality: Kosovar
+  postal_code: true
+  unofficial_names:
+  - Kosovo
+  - Kosova
+  - Kosovë
+  - Косово
+  languages_official:
+  - sq
+  - sr
+  languages_spoken:
+  - sq
+  - sr
+  geo:
+    latitude: 42.602636
+    latitude_dec: '42.602636'
+    longitude: 20.902977
+    longitude_dec: '20.902977'
+    max_latitude: 43.2682495807952
+    max_longitude: 21.789866557564222
+    min_latitude: 41.85636960191757
+    min_longitude: 20.014072750000038
+    bounds:
+      northeast:
+        lat: 43.2682495807952
+        lng: 21.789866557564222
+      southwest:
+        lat: 41.85636960191757
+        lng: 20.014072750000038
+  currency_code: EUR
+  start_of_week: monday

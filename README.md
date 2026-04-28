@@ -36,7 +36,7 @@ country = Countries.filter_by(:alpha2, "DE")
 
 countries = Countries.filter_by(:region, "Europe")
 Enum.count(countries)
-# 51
+# 52
 ```
 
 Get all countries:
@@ -44,7 +44,7 @@ Get all countries:
 ```elixir
 countries = Countries.all
 Enum.count(countries)
-# 250
+# 251
 ```
 
 ## Contributing
