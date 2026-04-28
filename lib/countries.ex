@@ -35,7 +35,7 @@ defmodule Countries do
 
       iex> countries = Countries.filter_by(:region, "Europe")
       iex> Enum.count(countries)
-      51
+      52
       iex> Enum.map(countries, &Map.get(&1, :alpha2)) |> Enum.take(5)
       ["AD", "AL", "AT", "AX", "BA"]
 
